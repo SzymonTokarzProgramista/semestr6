@@ -1,0 +1,1433 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 1776
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Mar 19 14:59:37 CET 2024
+Time zone: 	Central European Standard Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1200
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/apps/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/apps/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	lab
+User home directory: C:/Users/lab
+User working directory: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: C:/apps/Xilinx/Vivado
+HDI_APPROOT: C:/apps/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/apps/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/apps/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/apps/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/vivado.log
+Vivado journal file location: 	D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/vivado.jou
+Engine tmp dir: 	D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/.Xil/Vivado-1776-DESKTOP-S66I69I
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/apps/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/apps/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/apps/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/apps/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/apps/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/apps/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,016 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: open_project D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+94762kb) [00:00:08]
+// [Engine Memory]: 1,016 MB (+914016kb) [00:00:08]
+// [GUI Memory]: 117 MB (+20074kb) [00:00:08]
+// [GUI Memory]: 129 MB (+7151kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  3533 ms.
+// Tcl Message: open_project D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/ES_2022/ES_DCMotor_BaseProj' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/apps/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 74 MB. Current time: 3/19/24, 2:59:37 PM CET
+// Project name: ES_DCMotor_BaseProj; location: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (ES_DCMotor_Main.vhd) elapsed time: 0.2s
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ES_DCMotor_Main(Behavioral) (ES_DCMotor_Main.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ES_DCMotor_Main(Behavioral) (ES_DCMotor_Main.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ES_DCMotor_Main(Behavioral) (ES_DCMotor_Main.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ES_DCMotor_Main(Behavioral) (ES_DCMotor_Main.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 142 MB (+6167kb) [00:01:16]
+// Elapsed time: 81 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ES_Nexys4_Constrains.xdc]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ES_Nexys4_Constrains.xdc]", 4, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 71 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "pwm"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/pwm.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/pwm.vhd 
+// I (cr): Define Module: addNotify
+// Elapsed time: 13 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "setFreq", 0, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab
+// Elapsed time: 32 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "setPWM", 1, "Port Name", 0); // ab
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pwm(Behavioral) (pwm.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pwm(Behavioral) (pwm.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 153 MB (+4031kb) [00:05:43]
+// Elapsed time: 16 seconds
+selectCodeEditor("pwm.vhd", 66, 430); // bP
+// Elapsed time: 65 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ES_Nexys4_Constrains.xdc]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ES_Nexys4_Constrains.xdc]", 5, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pwm.vhd", 62, 424); // bP
+selectCodeEditor("pwm.vhd", 65, 412); // bP
+selectCodeEditor("pwm.vhd", 314, 287); // bP
+selectCodeEditor("pwm.vhd", 299, 267); // bP
+selectCodeEditor("pwm.vhd", 304, 269); // bP
+selectCodeEditor("pwm.vhd", 292, 284); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("pwm.vhd", 306, 284); // bP
+selectCodeEditor("pwm.vhd", 307, 310); // bP
+// Elapsed time: 71 seconds
+selectCodeEditor("pwm.vhd", 286, 380); // bP
+selectCodeEditor("pwm.vhd", 288, 370); // bP
+selectCodeEditor("pwm.vhd", 179, 366); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("pwm.vhd", 207, 385); // bP
+selectCodeEditor("pwm.vhd", 320, 434); // bP
+selectCodeEditor("pwm.vhd", 61, 406); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// Elapsed time: 108 seconds
+selectCodeEditor("pwm.vhd", 78, 417); // bP
+selectCodeEditor("pwm.vhd", 78, 413, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 58, 405); // bP
+// Elapsed time: 34 seconds
+selectCodeEditor("pwm.vhd", 315, 350); // bP
+// Elapsed time: 145 seconds
+selectCodeEditor("pwm.vhd", 420, 385); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 160, 415); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+selectCodeEditor("pwm.vhd", 283, 410); // bP
+selectCodeEditor("pwm.vhd", 325, 413); // bP
+selectCodeEditor("pwm.vhd", 443, 411); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 39, 420); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 425, 337); // bP
+selectCodeEditor("pwm.vhd", 431, 328); // bP
+selectCodeEditor("pwm.vhd", 425, 353); // bP
+selectCodeEditor("pwm.vhd", 362, 390); // bP
+selectCodeEditor("pwm.vhd", 47, 412); // bP
+// Elapsed time: 103 seconds
+selectCodeEditor("pwm.vhd", 185, 75); // bP
+selectCodeEditor("pwm.vhd", 178, 74); // bP
+selectCodeEditor("pwm.vhd", 178, 74, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 186, 188); // bP
+selectCodeEditor("pwm.vhd", 108, 397); // bP
+// Elapsed time: 170 seconds
+selectCodeEditor("pwm.vhd", 269, 410); // bP
+// Elapsed time: 36 seconds
+selectCodeEditor("pwm.vhd", 98, 369); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("pwm.vhd", 414, 244); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("pwm.vhd", 413, 264); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 103, 391); // bP
+selectCodeEditor("pwm.vhd", 106, 388); // bP
+selectCodeEditor("pwm.vhd", 70, 408); // bP
+selectCodeEditor("pwm.vhd", 107, 392); // bP
+selectCodeEditor("pwm.vhd", 121, 390); // bP
+selectCodeEditor("pwm.vhd", 121, 390); // bP
+selectCodeEditor("pwm.vhd", 294, 431); // bP
+// Elapsed time: 78 seconds
+selectCodeEditor("pwm.vhd", 206, 455); // bP
+// Elapsed time: 63 seconds
+selectCodeEditor("pwm.vhd", 293, 453); // bP
+selectCodeEditor("pwm.vhd", 263, 473); // bP
+selectCodeEditor("pwm.vhd", 233, 470); // bP
+// Elapsed time: 109 seconds
+selectCodeEditor("pwm.vhd", 171, 409); // bP
+selectCodeEditor("pwm.vhd", 73, 414); // bP
+selectCodeEditor("pwm.vhd", 120, 417); // bP
+// Elapsed time: 53 seconds
+selectCodeEditor("pwm.vhd", 256, 314); // bP
+selectCodeEditor("pwm.vhd", 141, 405); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("pwm.vhd", 236, 161); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("pwm.vhd", 135, 140); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 124, 136); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("pwm.vhd", 81, 407); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("pwm.vhd", 151, 288); // bP
+selectCodeEditor("pwm.vhd", 6, 440); // bP
+selectCodeEditor("pwm.vhd", 100, 442); // bP
+selectCodeEditor("pwm.vhd", 111, 317); // bP
+selectCodeEditor("pwm.vhd", 114, 307); // bP
+selectCodeEditor("pwm.vhd", 42, 431); // bP
+selectCodeEditor("pwm.vhd", 139, 308); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("pwm.vhd", 108, 262); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("pwm.vhd", 242, 182); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("pwm.vhd", 36, 412); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("pwm.vhd", 117, 281); // bP
+selectCodeEditor("pwm.vhd", 85, 285); // bP
+selectCodeEditor("pwm.vhd", 202, 269); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 85 MB. Current time: 3/19/24, 3:29:42 PM CET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 205 seconds
+selectCodeEditor("pwm.vhd", 283, 262); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 278, 281); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("pwm.vhd", 169, 290); // bP
+// Elapsed time: 26 seconds
+selectCodeEditor("pwm.vhd", 141, 227); // bP
+// Elapsed time: 84 seconds
+selectCodeEditor("pwm.vhd", 265, 116); // bP
+selectCodeEditor("pwm.vhd", 67, 160); // bP
+// Elapsed time: 77 seconds
+selectCodeEditor("pwm.vhd", 149, 391); // bP
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clockdriver"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clockdriver(Behavioral) (clockdriver.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clockdriver(Behavioral) (clockdriver.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("clockdriver.vhd", 51, 433); // bP
+selectCodeEditor("clockdriver.vhd", 148, 377); // bP
+selectCodeEditor("clockdriver.vhd", 407, 374); // bP
+// Elapsed time: 24 seconds
+selectCodeEditor("clockdriver.vhd", 87, 439); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("clockdriver.vhd", 267, 365); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("clockdriver.vhd", 171, 387); // bP
+selectCodeEditor("clockdriver.vhd", 108, 388); // bP
+selectCodeEditor("clockdriver.vhd", 59, 454); // bP
+selectCodeEditor("clockdriver.vhd", 214, 382); // bP
+selectCodeEditor("clockdriver.vhd", 62, 451); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("clockdriver.vhd", 117, 303); // bP
+// Elapsed time: 78 seconds
+selectCodeEditor("clockdriver.vhd", 209, 285); // bP
+selectCodeEditor("clockdriver.vhd", 97, 412); // bP
+selectCodeEditor("clockdriver.vhd", 211, 219); // bP
+selectCodeEditor("clockdriver.vhd", 92, 427); // bP
+// Elapsed time: 161 seconds
+selectCodeEditor("clockdriver.vhd", 113, 391); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("clockdriver.vhd", 203, 431); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("clockdriver.vhd", 107, 416); // bP
+selectCodeEditor("clockdriver.vhd", 107, 181); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectCodeEditor("pwm.vhd", 310, 72); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("pwm.vhd", 270, 332); // bP
+// Elapsed time: 22 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("pwm.vhd", 308, 142); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("pwm.vhd", 223, 432); // bP
+selectCodeEditor("pwm.vhd", 250, 458); // bP
+// Elapsed time: 49 seconds
+selectCodeEditor("pwm.vhd", 227, 433); // bP
+selectCodeEditor("pwm.vhd", 256, 439); // bP
+// Elapsed time: 110 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("clockdriver.vhd", 22, 120); // bP
+selectCodeEditor("clockdriver.vhd", 57, 119); // bP
+selectCodeEditor("clockdriver.vhd", 19, 93); // bP
+selectCodeEditor("clockdriver.vhd", 46, 92); // bP
+selectCodeEditor("clockdriver.vhd", 71, 79); // bP
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// Elapsed time: 12 seconds
+selectCodeEditor("pwm.vhd", 233, 431); // bP
+selectCodeEditor("pwm.vhd", 253, 429); // bP
+// Elapsed time: 91 seconds
+selectCodeEditor("pwm.vhd", 129, 76); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 364, 88); // bP
+selectCodeEditor("pwm.vhd", 359, 80); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 194, 77); // bP
+selectCodeEditor("pwm.vhd", 194, 77, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 194, 77); // bP
+selectCodeEditor("pwm.vhd", 194, 77); // bP
+selectCodeEditor("pwm.vhd", 194, 77); // bP
+selectCodeEditor("pwm.vhd", 190, 76); // bP
+selectCodeEditor("pwm.vhd", 136, 78); // bP
+selectCodeEditor("pwm.vhd", 158, 70); // bP
+selectCodeEditor("pwm.vhd", 134, 77); // bP
+selectCodeEditor("pwm.vhd", 126, 93); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("pwm.vhd", 177, 76); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("pwm.vhd", 166, 243); // bP
+// Elapsed time: 26 seconds
+selectCodeEditor("pwm.vhd", 295, 137); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("pwm.vhd", 362, 155); // bP
+selectCodeEditor("pwm.vhd", 198, 136); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 287, 158); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+selectCodeEditor("pwm.vhd", 168, 342); // bP
+selectCodeEditor("pwm.vhd", 161, 307); // bP
+// Elapsed time: 73 seconds
+selectCodeEditor("pwm.vhd", 343, 328); // bP
+selectCodeEditor("pwm.vhd", 348, 326); // bP
+selectCodeEditor("pwm.vhd", 440, 325); // bP
+selectCodeEditor("pwm.vhd", 102, 135); // bP
+selectCodeEditor("pwm.vhd", 150, 135); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 201, 159); // bP
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 77 MB. Current time: 3/19/24, 3:59:42 PM CET
+// Elapsed time: 277 seconds
+selectCodeEditor("pwm.vhd", 350, 97); // bP
+selectCodeEditor("pwm.vhd", 444, 91); // bP
+// Elapsed time: 100 seconds
+selectCodeEditor("pwm.vhd", 545, 121); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("pwm.vhd", 71, 261); // bP
+selectCodeEditor("pwm.vhd", 114, 225); // bP
+// Elapsed time: 29 seconds
+selectCodeEditor("pwm.vhd", 398, 305); // bP
+selectCodeEditor("pwm.vhd", 289, 367); // bP
+selectCodeEditor("pwm.vhd", 334, 306); // bP
+selectCodeEditor("pwm.vhd", 291, 103); // bP
+selectCodeEditor("pwm.vhd", 293, 135); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 61 seconds
+selectCodeEditor("pwm.vhd", 248, 158); // bP
+// Elapsed time: 270 seconds
+selectCodeEditor("pwm.vhd", 312, 306); // bP
+// Elapsed time: 35 seconds
+selectCodeEditor("pwm.vhd", 173, 381); // bP
+selectCodeEditor("pwm.vhd", 381, 327); // bP
+selectCodeEditor("pwm.vhd", 332, 294); // bP
+selectCodeEditor("pwm.vhd", 220, 346); // bP
+// Elapsed time: 24 seconds
+selectCodeEditor("pwm.vhd", 420, 381); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("pwm.vhd", 524, 346); // bP
+// Elapsed time: 56 seconds
+selectCodeEditor("pwm.vhd", 448, 94); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("pwm.vhd", 481, 89); // bP
+selectCodeEditor("pwm.vhd", 510, 93); // bP
+selectCodeEditor("pwm.vhd", 510, 93, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 512, 93); // bP
+selectCodeEditor("pwm.vhd", 512, 93); // bP
+selectCodeEditor("pwm.vhd", 550, 103); // bP
+selectCodeEditor("pwm.vhd", 500, 119); // bP
+selectCodeEditor("pwm.vhd", 540, 113); // bP
+selectCodeEditor("pwm.vhd", 595, 133); // bP
+// Elapsed time: 100 seconds
+selectCodeEditor("pwm.vhd", 105, 155); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 422, 329); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("pwm.vhd", 102, 155); // bP
+// Elapsed time: 28 seconds
+selectCodeEditor("pwm.vhd", 215, 157); // bP
+selectCodeEditor("pwm.vhd", 270, 226); // bP
+selectCodeEditor("pwm.vhd", 426, 325); // bP
+// Elapsed time: 31 seconds
+selectCodeEditor("pwm.vhd", 70, 388); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("pwm.vhd", 253, 383); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("pwm.vhd", 265, 413); // bP
+// Run Command: RDIResourceCommand.RDICommands_UNSELECT_ALL
+// Elapsed time: 55 seconds
+selectCodeEditor("pwm.vhd", 205, 427); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("pwm.vhd", 143, 364); // bP
+selectCodeEditor("pwm.vhd", 144, 453); // bP
+selectCodeEditor("pwm.vhd", 266, 374); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 351, 305); // bP
+selectCodeEditor("pwm.vhd", 531, 242); // bP
+// Elapsed time: 46 seconds
+selectCodeEditor("pwm.vhd", 147, 453); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("pwm.vhd", 402, 445); // bP
+selectCodeEditor("pwm.vhd", 320, 401); // bP
+selectCodeEditor("pwm.vhd", 141, 393); // bP
+selectCodeEditor("pwm.vhd", 107, 40); // bP
+// Elapsed time: 33 seconds
+selectCodeEditor("pwm.vhd", 640, 49); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 326, 329); // bP
+selectCodeEditor("pwm.vhd", 539, 306); // bP
+selectCodeEditor("pwm.vhd", 545, 307); // bP
+selectCodeEditor("pwm.vhd", 308, 258); // bP
+selectCodeEditor("pwm.vhd", 322, 266); // bP
+selectCodeEditor("pwm.vhd", 349, 98); // bP
+selectCodeEditor("pwm.vhd", 138, 198); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 85 seconds
+selectCodeEditor("pwm.vhd", 251, 330); // bP
+selectCodeEditor("pwm.vhd", 251, 330, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 373, 328); // bP
+selectCodeEditor("pwm.vhd", 373, 328, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 393, 443); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("pwm.vhd", 140, 326); // bP
+selectCodeEditor("pwm.vhd", 141, 327); // bP
+selectCodeEditor("pwm.vhd", 136, 328); // bP
+selectCodeEditor("pwm.vhd", 212, 357); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("pwm.vhd", 260, 163); // bP
+selectCodeEditor("pwm.vhd", 260, 163, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 292, 170); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 263, 381); // bP
+selectCodeEditor("pwm.vhd", 263, 381, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 359, 128); // bP
+selectCodeEditor("pwm.vhd", 378, 122); // bP
+selectCodeEditor("pwm.vhd", 254, 284); // bP
+selectCodeEditor("pwm.vhd", 284, 162); // bP
+selectCodeEditor("pwm.vhd", 263, 116); // bP
+selectCodeEditor("pwm.vhd", 263, 116, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("pwm.vhd", 419, 166); // bP
+selectCodeEditor("pwm.vhd", 499, 121); // bP
+selectCodeEditor("pwm.vhd", 485, 118); // bP
+selectCodeEditor("pwm.vhd", 502, 122); // bP
+selectCodeEditor("pwm.vhd", 393, 114); // bP
+selectCodeEditor("pwm.vhd", 511, 117); // bP
+selectCodeEditor("pwm.vhd", 500, 113); // bP
+selectCodeEditor("pwm.vhd", 493, 118); // bP
+selectCodeEditor("pwm.vhd", 514, 121); // bP
+selectCodeEditor("pwm.vhd", 534, 121); // bP
+selectCodeEditor("pwm.vhd", 547, 118); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("pwm.vhd", 513, 164); // bP
+selectCodeEditor("pwm.vhd", 465, 116); // bP
+selectCodeEditor("pwm.vhd", 345, 115); // bP
+selectCodeEditor("pwm.vhd", 344, 115, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 443, 118); // bP
+selectCodeEditor("pwm.vhd", 443, 118, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 199, 111); // bP
+selectCodeEditor("pwm.vhd", 199, 111, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 243, 337); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("pwm.vhd", 523, 113); // bP
+selectCodeEditor("pwm.vhd", 528, 117); // bP
+selectCodeEditor("pwm.vhd", 526, 175); // bP
+selectCodeEditor("pwm.vhd", 236, 331); // bP
+selectCodeEditor("pwm.vhd", 236, 331, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 353, 331); // bP
+selectCodeEditor("pwm.vhd", 353, 331, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 286, 160); // bP
+selectCodeEditor("pwm.vhd", 384, 225); // bP
+selectCodeEditor("pwm.vhd", 381, 309); // bP
+selectCodeEditor("pwm.vhd", 381, 309, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 333, 240); // bP
+selectCodeEditor("pwm.vhd", 265, 305); // bP
+selectCodeEditor("pwm.vhd", 414, 307); // bP
+selectCodeEditor("pwm.vhd", 336, 306); // bP
+selectCodeEditor("pwm.vhd", 312, 305); // bP
+selectCodeEditor("pwm.vhd", 412, 307); // bP
+selectCodeEditor("pwm.vhd", 412, 307, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 337, 112); // bP
+selectCodeEditor("pwm.vhd", 336, 112, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 260, 163); // bP
+selectCodeEditor("pwm.vhd", 260, 163, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 248, 350); // bP
+selectCodeEditor("pwm.vhd", 248, 350, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 290, 371); // bP
+selectCodeEditor("pwm.vhd", 272, 154); // bP
+selectCodeEditor("pwm.vhd", 272, 154, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 275, 345); // bP
+selectCodeEditor("pwm.vhd", 275, 345, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+selectCodeEditor("pwm.vhd", 287, 364); // bP
+selectCodeEditor("pwm.vhd", 287, 364, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+selectCodeEditor("pwm.vhd", 314, 312); // bP
+selectCodeEditor("pwm.vhd", 366, 305); // bP
+selectCodeEditor("pwm.vhd", 366, 305, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 286, 303); // bP
+selectCodeEditor("pwm.vhd", 329, 302); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("pwm.vhd", 552, 429); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 558, 486); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("pwm.vhd", 654, 431); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("pwm.vhd", 351, 366); // bP
+selectCodeEditor("pwm.vhd", 764, 261, false, false, false, true, false); // bP - Popup Trigger
+selectCodeEditor("pwm.vhd", 282, 222); // bP
+selectCodeEditor("pwm.vhd", 269, 203); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 31 seconds
+selectCodeEditor("pwm.vhd", 331, 261); // bP
+// Elapsed time: 32 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("pwm.vhd", 468, 219); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("pwm.vhd", 349, 262); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("pwm.vhd", 638, 261); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("pwm.vhd", 529, 319); // bP
+selectCodeEditor("pwm.vhd", 660, 262); // bP
+selectCodeEditor("pwm.vhd", 663, 264); // bP
+selectCodeEditor("pwm.vhd", 435, 268); // bP
+selectCodeEditor("pwm.vhd", 377, 313); // bP
+selectCodeEditor("pwm.vhd", 528, 261); // bP
+selectCodeEditor("pwm.vhd", 517, 264); // bP
+selectCodeEditor("pwm.vhd", 523, 265); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("pwm.vhd", 448, 264); // bP
+selectCodeEditor("pwm.vhd", 448, 264, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 421, 296); // bP
+selectCodeEditor("pwm.vhd", 365, 262); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("pwm.vhd", 454, 264); // bP
+selectCodeEditor("pwm.vhd", 474, 264); // bP
+selectCodeEditor("pwm.vhd", 472, 264, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 336, 262); // bP
+selectCodeEditor("pwm.vhd", 493, 263); // bP
+selectCodeEditor("pwm.vhd", 493, 263, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("pwm.vhd", 520, 263); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 77 MB. Current time: 3/19/24, 4:29:42 PM CET
+// Elapsed time: 73 seconds
+selectCodeEditor("pwm.vhd", 238, 161); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("pwm.vhd", 359, 220); // bP
+selectCodeEditor("pwm.vhd", 548, 156); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 537, 157); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 357, 282); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 204 seconds
+selectCodeEditor("pwm.vhd", 573, 344); // bP
+selectCodeEditor("pwm.vhd", 245, 365); // bP
+// Elapsed time: 28 seconds
+selectCodeEditor("pwm.vhd", 140, 475); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 213, 392); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+selectCodeEditor("pwm.vhd", 482, 474); // bP
+selectCodeEditor("pwm.vhd", 128, 411); // bP
+selectCodeEditor("pwm.vhd", 183, 371); // bP
+selectCodeEditor("pwm.vhd", 534, 371); // bP
+selectCodeEditor("pwm.vhd", 174, 411); // bP
+selectCodeEditor("pwm.vhd", 155, 364); // bP
+selectCodeEditor("pwm.vhd", 169, 363); // bP
+selectCodeEditor("pwm.vhd", 236, 419); // bP
+selectCodeEditor("pwm.vhd", 366, 371); // bP
+selectCodeEditor("pwm.vhd", 477, 426); // bP
+selectCodeEditor("pwm.vhd", 144, 412); // bP
+selectCodeEditor("pwm.vhd", 108, 386); // bP
+selectCodeEditor("pwm.vhd", 391, 421); // bP
+// Elapsed time: 64 seconds
+selectCodeEditor("pwm.vhd", 144, 413); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("pwm.vhd", 136, 301); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectCodeEditor("pwm.vhd", 169, 409); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'v'); // bP
+selectCodeEditor("pwm.vhd", 360, 412); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("pwm.vhd", 464, 406); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// Elapsed time: 52 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4, false, true); // m - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 14 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 467, 363); // bP
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectCodeEditor("clockdriver.vhd", 198, 350); // bP
+typeControlKey((HResource) null, "clockdriver.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 95, 437); // bP
+typeControlKey((HResource) null, "ES_DCMotor_Main.vhd", 'v'); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 230, 510); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 92, 97); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 103, 94); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 99, 96); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 167, 93); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 99, 94); // bP
+typeControlKey((HResource) null, "ES_DCMotor_Main.vhd", 'c'); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 76, 431); // bP
+typeControlKey((HResource) null, "ES_DCMotor_Main.vhd", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectCodeEditor("clockdriver.vhd", 198, 306); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectCodeEditor("clockdriver.vhd", 74, 305); // bP
+typeControlKey((HResource) null, "clockdriver.vhd", 'v'); // bP
+selectCodeEditor("clockdriver.vhd", 70, 536); // bP
+typeControlKey((HResource) null, "clockdriver.vhd", 'v'); // bP
+selectCodeEditor("clockdriver.vhd", 168, 574); // bP
+typeControlKey((HResource) null, "clockdriver.vhd", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 152, 377); // bP
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectCodeEditor("pwm.vhd", 299, 203); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+typeControlKey((HResource) null, "ES_DCMotor_Main.vhd", 'v'); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 100, 560); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 19, 416); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 115, 561); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 160, 371); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 9, 418); // bP
+// Elapsed time: 21 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pwm(Behavioral) (pwm.vhd)]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectCodeEditor("ES_DCMotor_Main.vhd", 127, 224); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pwm(Behavioral) (pwm.vhd)]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectCodeEditor("ES_DCMotor_Main.vhd", 124, 228); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pwm(Behavioral) (pwm.vhd)]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ah
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ah
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// Elapsed time: 14 seconds
+selectCodeEditor("pwm.vhd", 279, 131); // bP
+selectCodeEditor("pwm.vhd", 142, 172); // bP
+selectCodeEditor("pwm.vhd", 91, 72); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pwm.vhd", 61, 224); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("pwm.vhd", 272, 264); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 123, 475); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 55 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 59, 59); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 41, 104); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 229, 726); // bP
+// Elapsed time: 63 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 154, 113); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectCodeEditor("clockdriver.vhd", 152, 301); // bP
+selectCodeEditor("clockdriver.vhd", 201, 429); // bP
+selectCodeEditor("clockdriver.vhd", 148, 539); // bP
+selectCodeEditor("clockdriver.vhd", 252, 580); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 295, 722); // bP
+// Elapsed time: 37 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 435, 729); // bP
+// Elapsed time: 27 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 441, 54); // bP
+// Elapsed time: 24 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 301, 82); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 297, 82); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 389, 703); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 358, 723); // bP
+// Elapsed time: 98 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 40 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 375, 717); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 337, 710); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectCodeEditor("pwm.vhd", 548, 330); // bP
+selectCodeEditor("pwm.vhd", 625, 333); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectCodeEditor("pwm.vhd", 312, 127); // bP
+selectCodeEditor("pwm.vhd", 312, 118); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 314, 746); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 311, 182); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 175, 167); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 313, 724); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 245, 48); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 421, 667); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 331, 729); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 344, 699); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 336, 683); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 347, 644); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 327, 642); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 383, 640); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 431, 644); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 296, 684); // bP
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectCodeEditor("pwm.vhd", 295, 94); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 244, 693); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 268, 665); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 45, 625); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectCodeEditor("pwm.vhd", 99, 99); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 256, 625); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 250, 704); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 252, 720); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 292, 245, false, false, false, true, false); // bP - Popup Trigger
+selectCodeEditor("ES_DCMotor_Main.vhd", 81, 304); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 1); // m
+// Elapsed time: 11 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 116, 218); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 100, 304); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 96, 323); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 267, 362); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 19 16:56:06 2024] Launched synth_1... Run output will be captured here: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 30 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'clockdriver' [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:40]. ]", 16); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false, false, false, false, false, true); // ah - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false, false, false, false, false, true); // ah - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.srcs\sources_1\new\clockdriver.vhd;-;;-;16;-;line;-;51;-;;-;16;-;"); // ah
+// Elapsed time: 32 seconds
+selectCodeEditor("clockdriver.vhd", 61, 303); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("clockdriver.vhd", 181, 305); // bP
+selectCodeEditor("clockdriver.vhd", 236, 273); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 19 16:57:48 2024] Launched synth_1... Run output will be captured here: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 29 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.srcs\sources_1\new\clockdriver.vhd;-;;-;16;-;line;-;51;-;;-;16;-;"); // ah
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 79 MB. Current time: 3/19/24, 4:59:43 PM CET
+// Elapsed time: 89 seconds
+selectCodeEditor("clockdriver.vhd", 203, 396); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("clockdriver.vhd", 172, 433); // bP
+selectCodeEditor("clockdriver.vhd", 136, 433); // bP
+selectCodeEditor("clockdriver.vhd", 107, 432); // bP
+selectCodeEditor("clockdriver.vhd", 59, 432); // bP
+selectCodeEditor("clockdriver.vhd", 80, 367); // bP
+selectCodeEditor("clockdriver.vhd", 128, 369); // bP
+selectCodeEditor("clockdriver.vhd", 194, 378); // bP
+selectCodeEditor("clockdriver.vhd", 155, 371); // bP
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'clockdriver' [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:40]. ]", 16, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.srcs\sources_1\new\clockdriver.vhd;-;;-;16;-;line;-;40;-;;-;16;-;"); // ah
+selectCodeEditor("clockdriver.vhd", 175, 391); // bP
+// Elapsed time: 25 seconds
+selectCodeEditor("clockdriver.vhd", 215, 434); // bP
+selectCodeEditor("clockdriver.vhd", 160, 453); // bP
+selectCodeEditor("clockdriver.vhd", 162, 436); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 19 17:01:15 2024] Launched synth_1... Run output will be captured here: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 23 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 15, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.srcs\sources_1\new\clockdriver.vhd;-;;-;16;-;line;-;51;-;;-;16;-;"); // ah
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'ES_DCMotor_Main' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj ES_DCMotor_Main_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'clockdriver' INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/pwm.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'pwm_module' INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/ES_DCMotor_Main.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'ES_DCMotor_Main' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 715c4c032ec845c7a1e4aa570e9e302e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ES_DCMotor_Main_behav xil_defaultlib.ES_DCMotor_Main -log elaborate.log" 
+// Tcl Message: Built simulation snapshot ES_DCMotor_Main_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim/xsim.dir/ES_DCMotor_Main_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Tue Mar 19 17:01:51 2024... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.027 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "ES_DCMotor_Main_behav -key {Behavioral:sim_1:Functional:ES_DCMotor_Main} -tclbatch {ES_DCMotor_Main.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1177 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source ES_DCMotor_Main.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 86 MB. Current time: 3/19/24, 5:01:55 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'ES_DCMotor_Main_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1006.027 ; gain = 0.000 
+// 'd' command handler elapsed time: 13 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, out_tmp]", 12, false); // a
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 86 MB. Current time: 3/19/24, 5:02:02 PM CET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_Nexys4_Constrains.xdc", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 0); // m
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] else clause after check for clock not supported [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:51]. ]", 1, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.srcs\sources_1\new\clockdriver.vhd;-;;-;16;-;line;-;51;-;;-;16;-;"); // ah
+// Elapsed time: 10 seconds
+selectCodeEditor("clockdriver.vhd", 155, 306); // bP
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pwm.vhd", 2); // m
+selectCodeEditor("pwm.vhd", 274, 158); // bP
+typeControlKey((HResource) null, "pwm.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_DCMotor_Main.vhd", 0); // m
+selectCodeEditor("ES_DCMotor_Main.vhd", 279, 209); // bP
+typeControlKey((HResource) null, "ES_DCMotor_Main.vhd", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clockdriver.vhd", 3); // m
+selectCodeEditor("clockdriver.vhd", 292, 214); // bP
+typeControlKey((HResource) null, "clockdriver.vhd", 'v'); // bP
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 19 17:03:32 2024] Launched synth_1... Run output will be captured here: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 68 seconds
+selectCodeEditor("clockdriver.vhd", 54, 118); // bP
+// Elapsed time: 17 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aK
+selectTab((HResource) null, (HResource) null, "Scope", 0); // aK
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 43 seconds
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true, false, false, false, false, true); // c - Double Click - Node
+// TclEventType: SIMULATION_OPEN_SOURCE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Switch[15:0] ; UUUU ; Array", 9, "Switch[15:0]", 0, true); // c - Node
+// Elapsed time: 72 seconds
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 221); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 252, 347); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 252, 234); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 216); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 238); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 252, 258); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 254, 282); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 255, 306); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 254, 330); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 348); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 326); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 254, 310); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 252, 284); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 254, 255); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 247, 238); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 263, 218); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 235); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 256, 262); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 254, 282); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 309); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 252, 327); // bP
+selectCodeEditor("ES_DCMotor_Main.vhd", 253, 343); // bP
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'clockdriver' [D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd:42]. ]", 2, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ES_2024\sw_sstw\ES_DCMotor_BaseProj\ES_DCMotor_BaseProj.srcs\sources_1\new\clockdriver.vhd;-;;-;16;-;line;-;42;-;;-;16;-;"); // ah
+// Elapsed time: 23 seconds
+selectCodeEditor("clockdriver.vhd", 61, 179); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("clockdriver.vhd", 60, 227); // bP
+selectCodeEditor("clockdriver.vhd", 276, 198); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+dismissDialog("Save Project"); // am
+selectCodeEditor("clockdriver.vhd", 128, 227); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Tue Mar 19 17:08:21 2024] Launched synth_1... Run output will be captured here: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Close"); // bz
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'ES_DCMotor_Main' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj ES_DCMotor_Main_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'clockdriver' INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/ES_DCMotor_Main.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'ES_DCMotor_Main' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 715c4c032ec845c7a1e4aa570e9e302e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ES_DCMotor_Main_behav xil_defaultlib.ES_DCMotor_Main -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "ES_DCMotor_Main_behav -key {Behavioral:sim_1:Functional:ES_DCMotor_Main} -tclbatch {ES_DCMotor_Main.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 87 MB. Current time: 3/19/24, 5:09:20 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: source ES_DCMotor_Main.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'ES_DCMotor_Main_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.027 ; gain = 0.000 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ES_Nexys4_Constrains.xdc", 1); // m
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - ES_DCMotor_Main", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Close : addNotify
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+dismissDialog("Confirm Close"); // A
+// WARNING: HEventQueue.dispatchEvent() is taking  1302 ms.
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cr):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Tue Mar 19 17:09:35 2024] Launched impl_1... Run output will be captured here: D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STEP_COMPLETED

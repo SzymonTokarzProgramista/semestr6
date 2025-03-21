@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.gen/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd,1712608222,vhdl,,,,c_addsub_0,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1712608512,vhdl,,,,mult_gen_0,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sim_1/new/tb_dzialanie.v,1712596874,verilog,,,,tb_dzialanie,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sources_1/new/delay.v,1712595800,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sources_1/new/dzialanie.v,,delay,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sources_1/new/dzialanie.v,1712607973,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sources_1/new/reg_delay.v,,dzialanie,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sources_1/new/reg_delay.v,1712595532,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.srcs/sim_1/new/tb_dzialanie.v,,reg_delay,,,,,,,,

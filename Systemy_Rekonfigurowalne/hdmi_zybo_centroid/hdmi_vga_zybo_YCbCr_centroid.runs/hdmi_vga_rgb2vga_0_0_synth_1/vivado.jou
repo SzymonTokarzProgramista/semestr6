@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May 21 10:18:42 2024
+# Process ID: 728
+# Current directory: D:/Kuba/studia/semestr VI/SR/Lab_6/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.runs/hdmi_vga_rgb2vga_0_0_synth_1
+# Command line: vivado.exe -log hdmi_vga_rgb2vga_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_vga_rgb2vga_0_0.tcl
+# Log file: D:/Kuba/studia/semestr VI/SR/Lab_6/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.runs/hdmi_vga_rgb2vga_0_0_synth_1/hdmi_vga_rgb2vga_0_0.vds
+# Journal file: D:/Kuba/studia/semestr VI/SR/Lab_6/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.runs/hdmi_vga_rgb2vga_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-VERHI1K, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8503 MB
+#-----------------------------------------------------------
+source hdmi_vga_rgb2vga_0_0.tcl -notrace

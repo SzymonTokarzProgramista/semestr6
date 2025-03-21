@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga/hdmi_vga.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga/hdmi_vga.srcs/sources_1/new/vp.v,1713184498,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga_zybo_src/tb_src/tb_hdmi.v,,vp,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga_zybo_src/tb_src/hdmi_in.v,1713177790,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga_zybo_src/tb_src/hdmi_out.v,,hdmi_in,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga_zybo_src/tb_src/hdmi_out.v,1648454698,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga/hdmi_vga.srcs/sources_1/new/vp.v,,hdmi_out,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_vga_zybo_src/tb_src/tb_hdmi.v,1713180526,verilog,,,,tb_hdmi,,,,,,,,

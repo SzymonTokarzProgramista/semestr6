@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Apr 22 23:27:15 2018
+# Process ID: 9356
+# Current directory: J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8992 J:\PROGRAMY\Vivado_projekty\hdmi_vga_zybo\hdmi_vga_zybo.xpr
+# Log file: J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/vivado.log
+# Journal file: J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.xpr
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_ip_repo J:/PROGRAMY/Vivado_projekty/vp} [current_project]
+update_ip_catalog
+create_ip -name vp -vendor xilinx.com -library user -version 1.0 -module_name vp_0 -dir j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip
+generate_target {instantiation_template} [get_files j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/vp_0_1/vp_0.xci]
+generate_target all [get_files  j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/vp_0_1/vp_0.xci]
+catch { config_ip_cache -export [get_ips -all vp_0] }
+export_ip_user_files -of_objects [get_files j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/vp_0_1/vp_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/vp_0_1/vp_0.xci]
+export_simulation -of_objects [get_files j:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sources_1/ip/vp_0_1/vp_0.xci] -directory J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/sim_scripts -ip_user_files_dir J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files -ipstatic_source_dir J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.ip_user_files/ipstatic -lib_map_path [list {modelsim=J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/modelsim} {questa=J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/questa} {riviera=J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/riviera} {activehdl=J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim
+launch_simulation
+source tb_hdmi.tcl
+close_sim

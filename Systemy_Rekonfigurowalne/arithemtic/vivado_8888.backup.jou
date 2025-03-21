@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Apr 15 12:24:35 2024
+# Process ID: 8888
+# Current directory: C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17360 C:\Studia\Semestr_6\Systemy_Rekonfigurowalne\arithemtic\arithemtic.xpr
+# Log file: C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/vivado.log
+# Journal file: C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic\vivado.jou
+# Running On: DESKTOP-QB8TK5V, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 34182 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/arithemtic.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arithemtic/tb_dzialanie_behav.wcfg
+source tb_dzialanie.tcl
+close_sim

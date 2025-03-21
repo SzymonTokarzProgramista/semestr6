@@ -1,0 +1,11 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_memory.sv,systemverilog,xpm,../../../../../../Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd,
+xbip_utils_v3_0_vh_rfs.vhd,vhdl,xbip_utils_v3_0_10,../../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd,
+xbip_pipe_v3_0_vh_rfs.vhd,vhdl,xbip_pipe_v3_0_6,../../../ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd,
+xbip_bram18k_v3_0_vh_rfs.vhd,vhdl,xbip_bram18k_v3_0_6,../../../ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd,
+mult_gen_v12_0_vh_rfs.vhd,vhdl,mult_gen_v12_0_18,../../../ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd,
+mult_32_20_lm.vhd,vhdl,xil_defaultlib,../../../../vision_thor.gen/sources_1/ip/divider_32_20_0/src/mult_32_20_lm/sim/mult_32_20_lm.vhd,
+divider_32_20.v,verilog,xil_defaultlib,../../../../vision_thor.gen/sources_1/ip/divider_32_20_0/src/divider_32_20.v,
+divider_32_20_0.v,verilog,xil_defaultlib,../../../../vision_thor.gen/sources_1/ip/divider_32_20_0/sim/divider_32_20_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,28 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Mon Apr  8 17:22:15 2024
+| Host         : DESKTOP-QB8TK5V running 64-bit major release  (build 9200)
+| Command      : upgrade_project -migrate_output_products
+| Project_Path : C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arytm_proste/arytm_proste.xpr
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Project Status Summary
+
+1. Project IP Status
+--------------------
+This project contains 2 IP and 0 Block Designs.
+
+
+1.1 Project IP Instances
++------------+-------------------------+-------------------------------------+-------------------------------------+
+| Instance   | Status                  | Reason                              | Recommendation                      |
+| Name       |                         |                                     |                                     |
++------------+-------------------------+-------------------------------------+-------------------------------------+
+| c_addsub_0 | Will be Migrated.       |                                     |                                     |
++------------+-------------------------+-------------------------------------+-------------------------------------+
+| mult_gen_0 | Will be Migrated.       |                                     |                                     |
++------------+-------------------------+-------------------------------------+-------------------------------------+
+
+
+

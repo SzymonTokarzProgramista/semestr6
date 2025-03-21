@@ -1,0 +1,62 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_11
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" into library xbip_pipe_v3_0_7
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_7_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_7'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" into library xbip_bram18k_v3_0_7
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_7_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_7'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" into library mult_gen_v12_0_19
+INFO: [VRFC 10-3107] analyzing entity 'op_resize'
+INFO: [VRFC 10-3107] analyzing entity 'delay_line'
+INFO: [VRFC 10-3107] analyzing entity 'cc_compare'
+INFO: [VRFC 10-3107] analyzing entity 'luts'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'dsp'
+INFO: [VRFC 10-3107] analyzing entity 'hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dist_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_sp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_syncmem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_scaled_adder'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_operation'
+INFO: [VRFC 10-3107] analyzing entity 'ccm'
+INFO: [VRFC 10-3107] analyzing entity 'three_input_adder'
+INFO: [VRFC 10-3107] analyzing entity 'multmxn_lut6'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_19_viv'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_19'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.gen/sources_1/ip/divider_32_20_0/src/mult_32_20_lm/sim/mult_32_20_lm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_32_20_lm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd" into library c_reg_fd_v12_0_7
+INFO: [VRFC 10-3107] analyzing entity 'c_reg_fd_v12_0_7_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_reg_fd_v12_0_7'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" into library xbip_dsp48_wrapper_v3_0_5
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e2_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp58e5_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_wrapper_v3_0_5'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" into library xbip_dsp48_addsub_v3_0_7
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_7_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_7'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd" into library xbip_addsub_v3_0_7
+INFO: [VRFC 10-3107] analyzing entity 'xbip_addsub_v3_0_7_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_addsub_v3_0_7'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.ip_user_files/ipstatic/hdl/c_addsub_v12_0_vh_rfs.vhd" into library c_addsub_v12_0_16
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_16_lut6_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_16_base_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_16_fabric_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_16_legacy'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_16_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_v12_0_16'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.gen/sources_1/ip/add/sim/add.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'add'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.gen/sources_1/ip/rgb2ycbcr_0_1/src/mult_gen_0/sim/mult_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/hdmi_zybo_centroid/hdmi_vga_zybo_YCbCr_centroid.gen/sources_1/ip/rgb2ycbcr_0_1/src/c_addsub_0/sim/c_addsub_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_0'

@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/delay/delay.srcs/sources_1/new/delay.v,1710683641,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sim_1/imports/tb_src/hdmi_in.v,,delay,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/delay/delay.srcs/sources_1/new/reg_delay.v,1710838734,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sources_1/new/vp.v,,reg_delay,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1712650300,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/delay/delay.srcs/sources_1/new/delay.v,,dist_mem_gen_0,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sim_1/imports/tb_src/hdmi_in.v,1713854792,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sim_1/imports/tb_src/hdmi_out.v,,hdmi_in,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sim_1/imports/tb_src/hdmi_out.v,1712507176,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/delay/delay.srcs/sources_1/new/reg_delay.v,,hdmi_out,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sim_1/imports/tb_src/tb_hdmi.v,1712572442,verilog,,,,tb_hdmi,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,
+C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sources_1/new/vp.v,1713854792,verilog,,C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/zad2_tor_wiz_na_zywo_copy/zad1_tor_wiz.srcs/sim_1/imports/tb_src/tb_hdmi.v,,vp,,,../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/7698,,,,,

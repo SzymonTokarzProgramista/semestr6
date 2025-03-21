@@ -1,0 +1,580 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Mar 30 10:57:03 2024
+# Process ID: 8484
+# Current directory: G:/xilinx/projects/vision_thor_LUT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13300 G:\xilinx\projects\vision_thor_LUT\vision_thor.xpr
+# Log file: G:/xilinx/projects/vision_thor_LUT/vivado.log
+# Journal file: G:/xilinx/projects/vision_thor_LUT\vivado.jou
+# Running On: Kuba, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 17107 MB
+#-----------------------------------------------------------
+start_gui
+open_project G:/xilinx/projects/vision_thor_LUT/vision_thor.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'G:/xilinx/projects/vision_thor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/xilinx/projects/vivado-library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 1148.652 ; gain = 396.316
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_hdmi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'hdmi_vga_clk_wiz_0_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'G:/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_720p_cea.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_hdmi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/imports/tb_src/hdmi_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/imports/tb_src/hdmi_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/new/vp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sim_1/imports/tb_src/tb_hdmi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hdmi
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: G:/xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hdmi_in
+Compiling module xil_defaultlib.vp
+Compiling module xil_defaultlib.hdmi_out
+Compiling module xil_defaultlib.tb_hdmi
+Compiling module xil_defaultlib.glbl
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1167.316 ; gain = 7.359
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property top vp [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_hdmi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'G:/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_720p_cea.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_hdmi_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: G:/xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hdmi_in
+Compiling module xil_defaultlib.vp
+Compiling module xil_defaultlib.hdmi_out
+Compiling module xil_defaultlib.tb_hdmi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_hdmi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_hdmi_behav -key {Behavioral:sim_1:Functional:tb_hdmi} -tclbatch {tb_hdmi.tcl} -protoinst "protoinst_files/hdmi_vga.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/hdmi_vga.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/hdmi_vga.protoinst for the following reason(s):
+There are no instances of module "hdmi_vga" in the design.
+
+Time resolution is 1 ps
+source tb_hdmi.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 20us
+out  0.ppm saved
+out  1.ppm saved
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hdmi_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 20us
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1198.793 ; gain = 31.477
+run 10 us
+run 10 us
+out  2.ppm saved
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name LUT
+set_property -dict [list \
+  CONFIG.Component_Name {LUT} \
+  CONFIG.coefficient_file {G:/xilinx/projects/vision_thor_LUT/lut.coe} \
+  CONFIG.data_width {8} \
+  CONFIG.depth {256} \
+  CONFIG.memory_type {rom} \
+  CONFIG.output_options {registered} \
+] [get_ips LUT]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'LUT' to 'LUT' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'g:/xilinx/projects/vision_thor_LUT/lut.coe' provided. It will be converted relative to IP Instance files '../../../../lut.coe'
+generate_target {instantiation_template} [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'LUT'...
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci]
+generate_target all [get_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'LUT'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'LUT'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'LUT'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'LUT'...
+export_ip_user_files -of_objects [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci] -directory G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/sim_scripts -ip_user_files_dir G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files -ipstatic_source_dir G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/modelsim} {questa=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/questa} {riviera=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/riviera} {activehdl=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci] -no_script -reset -force -quiet
+remove_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT/LUT.xci
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name dist_mem_gen_0
+set_property -dict [list \
+  CONFIG.coefficient_file {G:/xilinx/projects/vision_thor_LUT/lut.coe} \
+  CONFIG.data_width {8} \
+  CONFIG.depth {256} \
+  CONFIG.output_options {registered} \
+] [get_ips dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'g:/xilinx/projects/vision_thor_LUT/lut.coe' provided. It will be converted relative to IP Instance files '../../../../lut.coe'
+generate_target {instantiation_template} [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_0'...
+set_property generate_synth_checkpoint false [get_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+generate_target all [get_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'dist_mem_gen_0'...
+export_ip_user_files -of_objects [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/sim_scripts -ip_user_files_dir G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files -ipstatic_source_dir G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/modelsim} {questa=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/questa} {riviera=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/riviera} {activehdl=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property top dist_mem_gen_0 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_file g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci [get_filesets sim_1]
+export_ip_user_files -of_objects  [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -reset -force -quiet
+remove_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name LUT
+set_property -dict [list \
+  CONFIG.Component_Name {LUT} \
+  CONFIG.coefficient_file {G:/xilinx/projects/vision_thor_LUT/lut.coe} \
+  CONFIG.data_width {8} \
+  CONFIG.depth {256} \
+  CONFIG.memory_type {rom} \
+  CONFIG.output_options {registered} \
+] [get_ips LUT]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'LUT' to 'LUT' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'g:/xilinx/projects/vision_thor_LUT/lut.coe' provided. It will be converted relative to IP Instance files '../../../../lut.coe'
+generate_target {instantiation_template} [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'LUT'...
+set_property generate_synth_checkpoint false [get_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci]
+generate_target all [get_files  g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'LUT'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'LUT'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'LUT'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'LUT'...
+export_ip_user_files -of_objects [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files g:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci] -directory G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/sim_scripts -ip_user_files_dir G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files -ipstatic_source_dir G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/modelsim} {questa=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/questa} {riviera=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/riviera} {activehdl=G:/xilinx/projects/vision_thor_LUT/vision_thor.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'dist_mem_gen_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'LUT' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+WARNING: [Vivado 12-3661] Failed to remove file:G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/out_02.ppm
+WARNING: [Vivado 12-3661] Failed to remove file:G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/tb_hdmi_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/xelab.pb
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'G:/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dist_mem_gen_0' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/lut.coe'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/LUT.mif'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_720p_cea.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dist_mem_gen_0_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_pixclk/sim/ila_pixclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_pixclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_refclk/sim/ila_refclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_refclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_vga_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_vga_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_xlconstant_0_0/sim/hdmi_vga_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_vga_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_xlconstant_0_1/sim/hdmi_vga_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_vga_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/sim/hdmi_vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/ip/LUT_1/sim/LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/imports/tb_src/hdmi_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/imports/tb_src/hdmi_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/hdl/hdmi_vga_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_vga_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sim_1/imports/tb_src/tb_hdmi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hdmi
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/new/vp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj dist_mem_gen_0_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/DVI_Constants.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/ChannelBond.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ChannelBond'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncAsync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SyncAsync'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/GlitchFilter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'GlitchFilter'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TWI_SlaveCtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TWI_SlaveCtl'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/EEPROM_8b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'EEPROM_8b'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/InputSERDES.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InputSERDES'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/PhaseAlign.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PhaseAlign'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/ResyncToBUFG.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ResyncToBUFG'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncAsyncReset.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ResetBridge'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncBase.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SyncBase'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Clocking.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TMDS_Clocking'
+WARNING: [VRFC 10-3093] actual for formal port 'arst' is neither a static name nor a globally static expression [G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Clocking.vhd:135]
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TMDS_Decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/dvi2rgb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dvi2rgb'
+WARNING: [VRFC 10-3093] actual for formal port 'arst' is neither a static name nor a globally static expression [G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/dvi2rgb.vhd:212]
+WARNING: [VRFC 10-3093] actual for formal port 'potherchrdy' is neither a static name nor a globally static expression [G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/dvi2rgb.vhd:244]
+WARNING: [VRFC 10-3093] actual for formal port 'potherchvld' is neither a static name nor a globally static expression [G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/dvi2rgb.vhd:245]
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/sim/hdmi_vga_dvi2rgb_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hdmi_vga_dvi2rgb_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ipshared/69dc/src/rgb2vga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rgb2vga'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/xilinx/projects/vision_thor_LUT/vision_thor.ip_user_files/bd/hdmi_vga/ip/hdmi_vga_rgb2vga_0_0/sim/hdmi_vga_rgb2vga_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hdmi_vga_rgb2vga_0_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1313.617 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_7 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dist_mem_gen_0_behav xil_defaultlib.dist_mem_gen_0 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: G:/xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_7 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dist_mem_gen_0_behav xil_defaultlib.dist_mem_gen_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.dist_mem_gen_0 in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:02:21 . Memory (MB): peak = 1313.617 ; gain = 15.461
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+set_property top tb_hdmi [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_hdmi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'G:/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/lut.coe'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/LUT.mif'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim/dgl_720p_cea.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_hdmi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.gen/sources_1/ip/LUT_1/sim/LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/imports/tb_src/hdmi_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/imports/tb_src/hdmi_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sources_1/new/vp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT/vision_thor.srcs/sim_1/imports/tb_src/tb_hdmi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hdmi
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: G:/xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hdmi_in
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="z...
+Compiling module xil_defaultlib.LUT
+Compiling module xil_defaultlib.vp
+Compiling module xil_defaultlib.hdmi_out
+Compiling module xil_defaultlib.tb_hdmi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_hdmi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/xilinx/projects/vision_thor_LUT/vision_thor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_hdmi_behav -key {Behavioral:sim_1:Functional:tb_hdmi} -tclbatch {tb_hdmi.tcl} -protoinst "protoinst_files/hdmi_vga.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/hdmi_vga.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/hdmi_vga.protoinst for the following reason(s):
+There are no instances of module "hdmi_vga" in the design.
+
+Time resolution is 1 ps
+source tb_hdmi.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 20us
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+out  0.ppm saved
+out  1.ppm saved
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hdmi_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 20us
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1325.219 ; gain = 10.254
+run 10 us
+run 10 us
+out  2.ppm saved
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.xpr
+INFO: [Project 1-313] Project file moved from 'G:/xilinx/projects/vision_thor_LUT' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/xilinx/projects/vivado-library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/xilinx/Vivado/2022.2/data/ip'.
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'LUT'...
+export_ip_user_files -of_objects [get_files G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sources_1/ip/LUT_1/LUT.xci] -directory G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.ip_user_files/sim_scripts -ip_user_files_dir G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.ip_user_files -ipstatic_source_dir G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.cache/compile_simlib/modelsim} {questa=G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.cache/compile_simlib/questa} {riviera=G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.cache/compile_simlib/riviera} {activehdl=G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_hdmi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'G:/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim/LUT.mif'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim/lut.coe'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim/dgl_1080p_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim/dgl_1280_1024_cea.data'
+INFO: [SIM-utils-43] Exported 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim/dgl_720p_cea.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_hdmi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.gen/sources_1/ip/LUT_1/sim/LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sources_1/imports/tb_src/hdmi_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sources_1/imports/tb_src/hdmi_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sources_1/new/vp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vp
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.srcs/sim_1/imports/tb_src/tb_hdmi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hdmi
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: G:/xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_behav xil_defaultlib.tb_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hdmi_in
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="z...
+Compiling module xil_defaultlib.LUT
+Compiling module xil_defaultlib.vp
+Compiling module xil_defaultlib.hdmi_out
+Compiling module xil_defaultlib.tb_hdmi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_hdmi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/xilinx/projects/vision_thor_LUT_bin/vision_thor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_hdmi_behav -key {Behavioral:sim_1:Functional:tb_hdmi} -tclbatch {tb_hdmi.tcl} -protoinst "protoinst_files/hdmi_vga.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/hdmi_vga.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/hdmi_vga.protoinst for the following reason(s):
+There are no instances of module "hdmi_vga" in the design.
+
+Time resolution is 1 ps
+source tb_hdmi.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 20us
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+out  0.ppm saved
+out  1.ppm saved
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hdmi_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 20us
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1341.230 ; gain = 6.742
+run 10 us
+run 10 us
+out  2.ppm saved
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 30 11:53:43 2024...

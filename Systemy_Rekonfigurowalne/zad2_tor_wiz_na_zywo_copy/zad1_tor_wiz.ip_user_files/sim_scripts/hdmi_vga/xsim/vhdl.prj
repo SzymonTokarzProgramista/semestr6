@@ -1,0 +1,20 @@
+vhdl xil_defaultlib  \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/DVI_Constants.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/ChannelBond.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncAsync.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/GlitchFilter.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TWI_SlaveCtl.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/EEPROM_8b.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/InputSERDES.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/PhaseAlign.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/ResyncToBUFG.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncAsyncReset.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncBase.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Clocking.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Decoder.vhd" \
+"../../../../zad1_tor_wiz.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/dvi2rgb.vhd" \
+"../../../bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/sim/hdmi_vga_dvi2rgb_0_0.vhd" \
+"../../../bd/hdmi_vga/ipshared/69dc/src/rgb2vga.vhd" \
+"../../../bd/hdmi_vga/ip/hdmi_vga_rgb2vga_0_0/sim/hdmi_vga_rgb2vga_0_0.vhd" \
+
+nosort

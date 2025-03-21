@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 23 00:24:52 2018
+# Process ID: 5928
+# Current directory: J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10216 J:\PROGRAMY\Vivado_projekty\hdmi_vga_zybo\hdmi_vga_zybo.xpr
+# Log file: J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/vivado.log
+# Journal file: J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_hdmi.tcl
+add_bp {J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v} 67
+remove_bps -file {J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v} -line 67
+add_bp {J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v} 67
+remove_bps -file {J:/PROGRAMY/Vivado_projekty/hdmi_vga_zybo/hdmi_vga_zybo.srcs/sim_1/imports/tb_src/tb_hdmi.v} -line 67
+close_sim

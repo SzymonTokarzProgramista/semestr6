@@ -1,0 +1,19 @@
+
+*** Running vivado
+    with args -log ES_DCMotor_Main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ES_DCMotor_Main.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ES_DCMotor_Main.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 472.902 ; gain = 176.957
+ERROR: [Common 17-275] File does not exist [C:/Studia/Semestr_6/ES_Nexys4_Constrains.xdc]
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 25 21:34:34 2024...

@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../vision_thor.gen/sources_1/ip/binaryzation_2/src/binaryzation.v" \
+"../../../../vision_thor.gen/sources_1/ip/binaryzation_2/sim/binaryzation_2.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

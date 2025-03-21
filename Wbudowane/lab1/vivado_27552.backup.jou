@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Apr 27 13:56:10 2024
+# Process ID: 27552
+# Current directory: D:/OneDrive - Akademia Górniczo-Hutnicza im. Stanis³awa Staszica w Krakowie/SEM 6/SEM 6 SW/Laby/szymona/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28640 D:\OneDrive - Akademia Górniczo-Hutnicza im. Stanis³awa Staszica w Krakowie\SEM 6\SEM 6 SW\Laby\szymona\lab1\motor.xpr
+# Log file: D:/OneDrive - Akademia Górniczo-Hutnicza im. Stanis³awa Staszica w Krakowie/SEM 6/SEM 6 SW/Laby/szymona/lab1/vivado.log
+# Journal file: D:/OneDrive - Akademia Górniczo-Hutnicza im. Stanis³awa Staszica w Krakowie/SEM 6/SEM 6 SW/Laby/szymona/lab1\vivado.jou
+# Running On: DESKTOP-NDB9QOG, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - Akademia Górniczo-Hutnicza im. Stanis³awa Staszica w Krakowie/SEM 6/SEM 6 SW/Laby/szymona/lab1/motor.xpr}
+update_compile_order -fileset sources_1

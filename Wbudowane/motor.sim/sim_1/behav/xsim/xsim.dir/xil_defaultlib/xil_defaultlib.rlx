@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sim_1/new/encoders_tb.vhd,1711399387,vhdl,,,,encoders_tb,,,,,,,,
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sim_1/new/enoders_basic_tb.vhd,1711446102,vhdl,,,,enoders_basic_tb,,,,,,,,
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sim_1/new/tb_generator_PWM.vhd,1711396122,vhdl,,,,generator_pwm_tb,,,,,,,,
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sources_1/new/P.vhd,1711400132,vhdl,,,,p,,,,,,,,
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sources_1/new/encoders.vhd,1711399336,vhdl,C:/Studia/Semestr_6/Wbudowane/motor.srcs/sim_1/new/encoders_tb.vhd,,,encoders,,,,,,,,
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sources_1/new/enocoders_basic.vhd,1711445357,vhdl,C:/Studia/Semestr_6/Wbudowane/motor.srcs/sim_1/new/enoders_basic_tb.vhd,,,enocoders_basic,,,,,,,,
+C:/Studia/Semestr_6/Wbudowane/motor.srcs/sources_1/new/generator_PWM.vhd,1711389000,vhdl,C:/Studia/Semestr_6/Wbudowane/motor.srcs/sim_1/new/tb_generator_PWM.vhd,,,generator_pwm,,,,,,,,

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd" \
+"../../../../ES_DCMotor_BaseProj.srcs/sources_1/new/pwm.vhd" \
+"../../../../ES_DCMotor_BaseProj.srcs/sources_1/new/ES_DCMotor_Main.vhd" \
+
+# Do not sort compile order
+nosort

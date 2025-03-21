@@ -1,0 +1,4 @@
+Parametry do lapunova zad1:
+b=0.7
+c=0.8
+d=-1

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../arithemtic.srcs/sources_1/new/delay.v" \
+"../../../../arithemtic.srcs/sources_1/new/dzialanie.v" \
+"../../../../arithemtic.srcs/sources_1/new/reg_delay.v" \
+"../../../../arithemtic.srcs/sim_1/new/tb_dzialanie.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

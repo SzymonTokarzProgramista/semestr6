@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arytm_proste/arytm_proste.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_8
+ERROR: [VRFC 10-4982] syntax error near 'ERROR' [C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arytm_proste/arytm_proste.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd:1]
+INFO: [VRFC 10-8704] VHDL file 'C:/Studia/Semestr_6/Systemy_Rekonfigurowalne/arytm_proste/arytm_proste.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd' is ignored due to errors

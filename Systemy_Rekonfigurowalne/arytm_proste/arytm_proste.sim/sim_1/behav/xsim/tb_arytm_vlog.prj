@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../arytm_proste.srcs/sources_1/new/arytm.v" \
+"../../../../arytm_proste.srcs/sources_1/new/delay_module.v" \
+"../../../../arytm_proste.srcs/sources_1/new/delay_one.v" \
+"../../../../arytm_proste.srcs/sim_1/new/tb_arytm.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue May 21 14:43:57 2024
+# Process ID: 14472
+# Current directory: C:/Studia/Semestr_6/Wbudowane/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8480 C:\Studia\Semestr_6\Wbudowane\lab1\motor.xpr
+# Log file: C:/Studia/Semestr_6/Wbudowane/lab1/vivado.log
+# Journal file: C:/Studia/Semestr_6/Wbudowane/lab1\vivado.jou
+# Running On: DESKTOP-QB8TK5V, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 34182 MB
+#-----------------------------------------------------------
+start_gui
+oopen_project C:/Studia/Semestr_6/Wbudowane/lab1/motor.xpr
+update_compile_order -fileset sources_1
+save_project_as project_1 C:/Studia/Semestr_6/Wbudowane/lab1/project_1 -force

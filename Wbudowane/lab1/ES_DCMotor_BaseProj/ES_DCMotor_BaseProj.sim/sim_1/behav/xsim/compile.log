@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/clockdriver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clockdriver'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/ES_2024/sw_sstw/ES_DCMotor_BaseProj/ES_DCMotor_BaseProj.srcs/sources_1/new/ES_DCMotor_Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ES_DCMotor_Main'
